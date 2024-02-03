@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+
+form {
+  align-items: center;
+}
+
+.upperText {
+  margin-top: 5px;
+  background-color: #ffffff0d;
+  padding: 3px;
+  text-align: center;
+  margin-left: 40vw;
+  width: 20vw;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  border: solid 2px #ffffff80;
+}
+
+.joinButton {
+  padding: 3px;
+  width: 20vw;
+  background-color: lawngreen;
+  color: black;
+}
+
+.joinButton:hover {
+  cursor: pointer;
+}
+
+.chatBox {
+  padding: 1vw;
+  margin: auto;
+  margin-top: 8px;
+  background-color: #ffffff80;
+  width: 58vw;
+  height: 66vh;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.chatBox::-webkit-scrollbar {
+  display: none;
+}
+
+.chatBox {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.lowerText {
+  width: 47vw;
+  margin-left: 0;
+  margin-right: 4px;
+  height: 4vh;
+}
+
+.SendButton {
+  margin-top: 5px;
+  background-color: lawngreen;
+  padding: 3px;
+  text-align: center;
+  width: 4vw;
+  color: black;
+  border-radius: 5px;
+  font-size: 18px;
+  border: solid 2px #ffffff80;
+}
+
+.textBox {
+  color: black;
+  font-size: 20px;
+}
+
+.user {
+  float: right;
+  clear: both;
+  background: transparent;
+}
+
+.non-user {
+  float: left;
+  clear: both;
+  background: transparent;
+}
+
+.fileinput {
+  margin-right: 5px;
+  margin-left: 20vw;
+  width: 3vw;
+  background-color: lawngreen;
+  color: black;
+}
+
+.fileinput::before {
+  content: " vedio                                              ";
+}
+
+.audio {
+  margin-left: 0px;
+}
+
+.audio::before {
+  content: " audio                                                    ";
+}
+
+.JoinRoom {
+  margin-top: 20vh;
+  text-align: center;
+  background-color: transparent;
+  color: #0d0d0d;
+  font-size: 48px;
+  font-weight: 800;
+}
